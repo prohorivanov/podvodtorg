@@ -1,14 +1,15 @@
 <html>
  <head>
-  <title>Заголовок страницы</title>
+ <meta charset="utf-8">
+  <title>Г‡Г ГЈГ®Г«Г®ГўГ®ГЄ Г±ГІГ°Г Г­ГЁГ¶Г»</title>
   <meta charset="windows-1251">
   <meta http-equiv="content-language" content="ru">
-  <meta name="keywords" content="ключевые слова">
-  <meta name="description" content="описание страницы">
+  <meta name="keywords" content="ГЄГ«ГѕГ·ГҐГўГ»ГҐ Г±Г«Г®ГўГ ">
+  <meta name="description" content="Г®ГЇГЁГ±Г Г­ГЁГҐ Г±ГІГ°Г Г­ГЁГ¶Г»">
 </head>
   <body>
-  <a href="#" title="Вернуться к началу" 
-  class="topbutton">^Наверх</a>
+  <a href="#" title="Г‚ГҐГ°Г­ГіГІГјГ±Гї ГЄ Г­Г Г·Г Г«Гі" 
+  class="topbutton">^ГЌГ ГўГҐГ°Гµ</a>
   </body>
 </html>
 
@@ -18,7 +19,7 @@
 <script>
 $(document).ready(function() {
  
-$('body').append('<div class="button-up" style="display: none;opacity: 0.7;width: 100px;height:100%;position: fixed;left: 0px;top: 0px;cursor: pointer;text-align: center;line-height: 100px;color: #45688E;">^ Наверх</div>');
+$('body').append('<div class="button-up" style="display: none;opacity: 0.7;width: 100px;height:100%;position: fixed;left: 0px;top: 0px;cursor: pointer;text-align: center;line-height: 100px;color: #45688E;">^ ГЌГ ГўГҐГ°Гµ</div>');
  
 $ (window).scroll (function () {
 if ($ (this).scrollTop () > 300) {
